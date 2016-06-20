@@ -1,0 +1,11 @@
+USE [events]
+GO
+
+/****** Object:  Index [IX_Events_ParentId]    Script Date: 7/03/2014 9:24:16 PM ******/
+CREATE NONCLUSTERED INDEX [IX_Events_ParentId] ON [dbo].[Events]
+(
+	[ParentId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+

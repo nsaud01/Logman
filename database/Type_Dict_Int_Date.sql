@@ -1,0 +1,1 @@
+CREATE TYPE Dict_Int_Date as TABLE ([Key] int, [Value] DateTime) 
