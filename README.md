@@ -8,7 +8,7 @@ Logman is an **ASP.NET** application which receives application logs through som
 
 > This project is a work-in-progress. It's 80% done and will be ready for use with some improvements.
 
-** Roadmap: **
+### Roadmap:
 
 What is needed to complete this project is:
 
